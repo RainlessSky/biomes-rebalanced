@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:disk",
+	"config": {
+		"state_provider": {
+			"fallback": {
+				"type": "minecraft:weighted_state_provider",
+				"entries": [
+					{
+						"weight": 50,
+						"data": {
+							"Name": "minecraft:moss_block"
+						}
+					},
+					{
+						"weight": 50,
+						"data": {
+							"Name": "minecraft:sandstone"
+						}
+					}
+				]
+			},
+			"rules": []
+		},
+		"target": {
+			"type": "minecraft:matching_blocks",
+			"blocks": "minecraft:sand"
+		},
+		"radius": {
+			"type": "minecraft:uniform",
+			"min_inclusive": 2,
+			"max_inclusive": 4
+		},
+		"half_height": 1
+	}
+}

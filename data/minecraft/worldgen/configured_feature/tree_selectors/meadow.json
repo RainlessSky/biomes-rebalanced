@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:birch_trees/tall_birch_bees",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "minecraft:oak_trees/large_oak_bees"
+      }
+    ]
+  }
+}

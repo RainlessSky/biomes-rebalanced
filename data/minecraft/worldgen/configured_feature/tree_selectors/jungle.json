@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "default": "minecraft:jungle/small_jungle_tree",
+      "features": [
+        {
+          "chance": 0.1,
+          "feature": "minecraft:oak_trees/large_oak"
+        },
+        {
+          "chance": 0.5,
+          "feature": "minecraft:jungle/jungle_bush"
+        },
+        {
+          "chance": 0.33333334,
+          "feature": "minecraft:jungle/large_jungle_tree"
+        }
+      ]
+    }
+  }

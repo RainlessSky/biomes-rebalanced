@@ -1,0 +1,25 @@
+{
+	"feature": "minecraft:oak_trees/oak_swamp",
+	"placement": [
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 3,
+			"noise_factor": 0,
+			"noise_offset": 0.3
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 1
+		}
+	]
+}
