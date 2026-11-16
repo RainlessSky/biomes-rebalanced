@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "weight": 9,
+      "data": "minecraft:birch_trees/birch_bees"
+    },
+    {
+      "weight": 1,
+      "data": "minecraft:birch_trees/tall_birch_bees"
+    }
+  ]
+}

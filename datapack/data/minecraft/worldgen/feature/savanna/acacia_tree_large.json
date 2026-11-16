@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:tree",
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 4,
+    "lower_size": 2,
+    "upper_size": 6
+  },
+  "below_trunk_provider": {
+    "id": "minecraft:rooted_dirt"
+  },
+  "trunk_provider": {
+    "id": "minecraft:acacia_log"
+  },
+  "foliage_provider": {
+    "id": "minecraft:acacia_leaves"
+  },
+  "trunk_placer": {
+    "type": "minecraft:cherry_trunk_placer",
+    "base_height": 5,
+    "height_rand_a": 2,
+    "height_rand_b": 1,
+    "branch_count": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 3
+    },
+    "branch_horizontal_length": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "branch_start_offset_from_top": {
+      "min_inclusive": -2,
+      "max_inclusive": -1
+    },
+    "branch_end_offset_from_top": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0,
+      "max_inclusive": 5
+    }
+  },
+  "foliage_placer": {
+    "type": "minecraft:acacia_foliage_placer",
+    "radius": 3,
+    "offset": 0
+  },
+  "decorators": []
+}

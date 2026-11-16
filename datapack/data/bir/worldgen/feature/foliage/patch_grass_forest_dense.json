@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:simple_block",
+		"to_place": {
+		"type": "minecraft:weighted",
+		"entries": [
+			{
+			"data": {
+				"id": "minecraft:short_grass"
+			},
+			"weight": 50
+			},
+			{
+			"data": {
+				"id": "minecraft:fern"
+			},
+			"weight": 25
+			},
+			{
+			"data": {
+				"id": "minecraft:bush"
+			},
+			"weight": 10
+			},
+			{
+			"data": {
+				"id": "minecraft:tall_grass"
+			},
+			"weight": 7
+			},
+			{
+			"data": {
+				"id": "minecraft:large_fern"
+			},
+			"weight": 4
+			},
+			{
+			"data": {
+				"id": "minecraft:azure_bluet"
+			},
+			"weight": 2
+			},
+			{
+			"data": {
+				"id": "minecraft:cornflower"
+			},
+			"weight": 1
+			},
+			{
+			"data": {
+				"id": "minecraft:allium"
+			},
+			"weight": 1
+			}
+		]
+		}
+}

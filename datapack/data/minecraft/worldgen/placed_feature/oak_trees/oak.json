@@ -1,0 +1,22 @@
+{
+	"feature": "minecraft:oak_trees/oak",
+	"placement": [
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"state": {
+					"id": "minecraft:oak_sapling",
+					"properties": {
+						"stage": "0"
+					}
+				}
+			}
+		}
+	]
+}

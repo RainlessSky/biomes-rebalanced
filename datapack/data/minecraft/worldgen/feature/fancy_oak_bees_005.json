@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:overlay",
+  "features": [
+    "minecraft:oak_trees/large_oak_bees"
+  ]
+}

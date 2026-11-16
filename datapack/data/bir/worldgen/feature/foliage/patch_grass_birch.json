@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:simple_block",
+		"to_place": {
+		"type": "minecraft:weighted",
+		"entries": [
+			{
+			"data": {
+				"id": "minecraft:short_grass"
+			},
+			"weight": 100
+			},
+			{
+			"data": {
+				"id": "minecraft:bush"
+			},
+			"weight": 50
+			},
+			{
+			"data": {
+				"id": "minecraft:fern"
+			},
+			"weight": 40
+			},
+			{
+			"data": {
+				"id": "minecraft:tall_grass"
+			},
+			"weight": 10
+			},
+			{
+			"data": {
+				"id": "minecraft:large_fern"
+			},
+			"weight": 10
+			},
+			{
+			"data": {
+				"id": "minecraft:lily_of_the_valley"
+			},
+			"weight": 4
+			},
+			{
+			"data": {
+				"id": "minecraft:cornflower"
+			},
+			"weight": 4
+			},
+			{
+			"data": {
+				"id": "minecraft:blue_orchid"
+			},
+			"weight": 3
+			},
+			{
+				"weight": 1,
+				"data": {
+					"id": "minecraft:pink_petals",
+					"properties": {
+						"facing": "north",
+						"flower_amount": "1"
+					}
+				}
+			},
+			{
+				"weight": 1,
+				"data": {
+					"id": "minecraft:pink_petals",
+					"properties": {
+						"facing": "south",
+						"flower_amount": "1"
+					}
+				}
+			},
+			{
+				"weight": 1,
+				"data": {
+					"id": "minecraft:pink_petals",
+					"properties": {
+						"facing": "west",
+						"flower_amount": "1"
+					}
+				}
+			},
+			{
+				"weight": 1,
+				"data": {
+					"id": "minecraft:pink_petals",
+					"properties": {
+						"facing": "east",
+						"flower_amount": "1"
+					}
+				}
+			}
+		]
+		}
+}

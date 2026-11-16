@@ -1,0 +1,41 @@
+{
+  "feature": "bir:fossil/desert_fossil",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.05
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "tag": "minecraft:sand"
+      }
+    },
+    {
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -5,
+        "max_inclusive": -2
+      },
+      "z": 0
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

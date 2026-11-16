@@ -1,0 +1,19 @@
+{
+  "feature": "bir:swamp/patch_grass_swamp",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 192
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

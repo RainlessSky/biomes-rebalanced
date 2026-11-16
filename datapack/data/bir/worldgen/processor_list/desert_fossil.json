@@ -1,0 +1,59 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:bone_block",
+          "probability": 0.15
+        },
+        "output_state": {
+          "id": "minecraft:coal_ore"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:bone_block",
+          "probability": 0.01
+        },
+        "output_state": {
+          "id": "minecraft:calcite"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:bone_block",
+          "probability": 0.01
+        },
+        "output_state": {
+          "id": "minecraft:sulfur"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:bone_block",
+          "probability": 0.01
+        },
+        "output_state": {
+          "id": "minecraft:air"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_selector",
+    "default": "minecraft:oak_trees/oak",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "minecraft:oak_trees/large_oak"
+      }
+    ]
+}
